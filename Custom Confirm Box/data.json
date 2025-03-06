@@ -1,0 +1,32 @@
+
+[
+    {
+        "name": "sazzad",
+        "age": 26,
+        "gender": "male",
+        "hobby": [
+            {
+                "name": "swim",
+                "time": 8
+            },
+            {
+                "name": "basketball",
+                "time": 20
+            }
+        ]
+    },
+    {
+        "name": "sazzad",
+        "age": 26,
+        "gender": "male"
+    },
+    {
+       "name": "sazzad",
+        "age": 26,
+        "gender": "male"
+    },{
+        "name": "sazzad",
+        "age": 26,
+        "gender": "male"
+    }
+]
