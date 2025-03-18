@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #404e7e;
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: rgb(221, 54, 179);
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #28a745;
+    color: rgb(237, 241, 241);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+.post {
+    background: #3d7cb6;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 5px;
+    position: relative;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.delete-btn:hover {
+    background: darkred;
+}
