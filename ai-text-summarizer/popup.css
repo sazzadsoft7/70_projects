@@ -16,7 +16,7 @@ button {
     width: 100%;
     padding: 8px;
     background-color: #4CAF50;
-    color: white;
+    color: rgb(13, 29, 179);
     border: none;
     cursor: pointer;
 }
@@ -27,7 +27,7 @@ button:hover {
 
 #output-summary {
     margin-top: 10px;
-    background: #f4f4f4;
+    background: #704b4b;
     padding: 5px;
     border-radius: 5px;
 }
