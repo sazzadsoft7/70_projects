@@ -1,0 +1,10 @@
+[
+    {"question": "What is your name?", "answer": "I am your AI Assistant, here to help you!"},
+    {"question": "How can you help me?", "answer": "I can assist you with information, answer your questions, and provide suggestions."},
+    {"question": "What is AI?", "answer": "AI stands for Artificial Intelligence. It's a technology that enables computers to think and learn like humans."},
+    {"question": "What is JavaScript?", "answer": "JavaScript is a popular programming language used to make web pages interactive."},
+    {"question": "What is HTML?", "answer": "HTML stands for HyperText Markup Language. It is used to create the structure of web pages."},
+    
+    {"question": "What is GraphQL?", "answer": "GraphQL is a query language for APIs and a runtime for fulfilling queries with your existing data."},
+    {"question": "What is Artificial Neural Network?", "answer": "It is a computational model inspired by the human brain, used in deep learning."}
+]
