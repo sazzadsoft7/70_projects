@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #17af51;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #55ec37;
+    color: rgb(206, 12, 38);
+    padding: 15px 0;
+    margin: 0;
+}
+
+#map {
+    height: 90vh;
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid #333;
+    box-shadow: 0px 4px 10px rgba(125, 41, 204, 0.2);
+}
