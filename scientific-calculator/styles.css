@@ -46,13 +46,13 @@ button {
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    background-color: #973737;
+    background-color: #2696ca;
     color: #fff;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #ce18bf;
+    background-color: #1683ad;
 }
 
 button:active {
@@ -60,10 +60,10 @@ button:active {
 }
 
 button:nth-child(4n) {
-    background-color: #16db51;
+    background-color: #14b845;
     color: #fff;
 }
 
 button:nth-child(4n):hover {
-    background-color: #1ca50f;
+    background-color: #16850c;
 }
