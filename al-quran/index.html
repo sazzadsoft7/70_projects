@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Quran App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Al-Quran</h1>
+        <p>পবিত্র কুরআন থেকে শিক্ষা নিন</p>
+    </header>
+
+    <section class="search">
+        <input type="number" id="surahNumber" placeholder="সূরার নাম্বার লিখুন (১-১১৪)" min="1" max="114">
+        <button onclick="getSurah()">সূরা দেখুন</button>
+    </section>
+
+    <section class="result">
+        <h2 id="surahName">সূরা নাম:</h2>
+        <p id="ayahs"></p>
+    </section>
+
+    <section class="random-ayah">
+        <h2>র‍্যান্ডম আয়াত</h2>
+        <button onclick="getRandomAyah()">র‍্যান্ডম আয়াত দেখুন</button>
+        <p id="randomAyah"></p>
+    </section>
+
+    <footer>
+        <p>© 2020 Al-Quran App. সকল স্বত্ব সংরক্ষিত।</p>
+    </footer>
+</body>
+</html>
