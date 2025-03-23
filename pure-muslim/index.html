@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure Muslim App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Pure Muslim App</h1>
+        <p>ইসলামের পূর্ণতা নিয়ে একটি ওয়েব অ্যাপ</p>
+    </header>
+
+    <section class="features">
+        <!-- Prayer Times -->
+        <div class="feature">
+            <h3>নামাজের সময়</h3>
+            <input type="text" id="city" placeholder="শহরের নাম লিখুন">
+            <button onclick="getPrayerTimes()">সময় দেখুন</button>
+            <ul id="prayerTimes"></ul>
+        </div>
+
+        <!-- Quranic Ayah -->
+        <div class="feature">
+            <h3>কুরআনের আয়াত</h3>
+            <button onclick="getRandomAyah()">আয়াত পড়ুন</button>
+            <p id="ayahDisplay"></p>
+        </div>
+
+        <!-- Tasbih Counter -->
+        <div class="feature">
+            <h3>তাসবীহ কাউন্টার</h3>
+            <p>গণনা: <span id="counter">0</span></p>
+            <button onclick="incrementCounter()">সুবহানাল্লাহ</button>
+            <button onclick="resetCounter()">রিসেট</button>
+        </div>
+
+        <!-- Qibla Compass -->
+        <div class="feature">
+            <h3>ক্বিবলা কম্পাস</h3>
+            <p id="qiblaDirection">দিক: N/A</p>
+            <button onclick="getQiblaDirection()">ক্বিবলা দেখুন</button>
+        </div>
+
+        <!-- Islamic Duas -->
+        <div class="feature">
+            <h3>ইসলামিক দোয়া</h3>
+            <button onclick="getRandomDua()">দোয়া পড়ুন</button>
+            <p id="duaDisplay"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2019 Pure Muslim App. সকল স্বত্ব সংরক্ষিত।</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
