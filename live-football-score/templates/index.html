@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Football Scores</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+</head>
+<body>
+    <h1>⚽ Live Football Scores</h1>
+    <table>
+        <tr>
+            <th>Home Team</th>
+            <th>Score</th>
+            <th>Away Team</th>
+            <th>Status</th>
+        </tr>
+        {% for match in matches %}
+        <tr>
+            <td>{{ match['homeTeam']['name'] }}</td>
+            <td>{{ match['score']['fullTime']['home'] or 0 }} - {{ match['score']['fullTime']['away'] or 0 }}</td>
+            <td>{{ match['awayTeam']['name'] }}</td>
+            <td>{{ match['status'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
