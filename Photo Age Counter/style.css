@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #5ccc40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background: #30cece;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  input[type="file"] {
+    margin: 20px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  #resultBox {
+    margin-top: 30px;
+  }
+  
+  #previewImage {
+    max-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: none;
+  }
+  
+  #ageResult {
+    font-size: 20px;
+    color: #333;
+  }
+  

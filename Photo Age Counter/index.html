@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Age Counter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📷 Photo Age Counter</h1>
+    
+    <input type="file" id="photoInput" accept="image/*">
+    <button onclick="predictAge()">Check Age</button>
+    
+    <div id="resultBox">
+      <img id="previewImage" src="" alt="Uploaded Image" />
+      <p id="ageResult">Predicted Age: <span id="age"></span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
