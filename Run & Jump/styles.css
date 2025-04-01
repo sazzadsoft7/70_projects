@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: white;
+}
+
+h1, h2 {
+    margin: 10px;
+}
+
+.game-container {
+    position: relative;
+    width: 600px;
+    height: 200px;
+    background-color: #eee;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+#runner {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+#obstacle {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    animation: moveObstacle 2s linear infinite;
+}
+
+@keyframes moveObstacle {
+    from {
+        right: 0;
+    }
+    to {
+        right: 600px;
+    }
+}
+
+.jump {
+    animation: jump 0.5s ease-out;
+}
+
+@keyframes jump {
+    0% { bottom: 0; }
+    50% { bottom: 120px; }
+    100% { bottom: 0; }
+}
