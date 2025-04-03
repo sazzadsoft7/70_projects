@@ -1,0 +1,61 @@
+:root {
+    --bg-color: #1e1e2e;
+    --text-color: white;
+    --border-color: #444;
+    --editor-bg: #282a36;
+}
+
+.light-mode {
+    --bg-color: white;
+    --text-color: black;
+    --border-color: #ddd;
+    --editor-bg: #f5f5f5;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease-in-out;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background: var(--editor-bg);
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 900px;
+    height: 80vh;
+    margin: 20px auto;
+    border: 1px solid var(--border-color);
+    background: var(--editor-bg);
+}
+
+textarea, #preview {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: var(--editor-bg);
+    color: var(--text-color);
+}
+
+#preview {
+    border-left: 1px solid var(--border-color);
+    overflow-y: auto;
+}
