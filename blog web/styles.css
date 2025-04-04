@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  form {
+    margin-bottom: 20px;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #0056b3;
+  }
+  .post {
+    background: #eee;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .post h3 {
+    margin-top: 0;
+  }
+  
