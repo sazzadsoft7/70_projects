@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+  }
+  
+  .header {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .box {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease;
+    background: #3498db;
+    color: white;
+    padding: 100px;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 8px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Visible Class */
+  .box.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
